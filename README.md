@@ -1,7 +1,7 @@
 # MEME FINDER
 
-## AKSHAYA L- 19PD04
-## KRITHIKA V- 19PD19
+<h3>AKSHAYA L- 19PD04</h3>
+<h3>KRITHIKA V- 19PD19</h3>
 
 ### Problem Statement:
  In the era of digital humor and viral content, internet memes have evolved into a fundamental mode of communication. However, the vast and continually expanding meme repository presents a challenge for users seeking specific or trending memes. Finding the right meme quickly and effortlessly has become a growing concern.
