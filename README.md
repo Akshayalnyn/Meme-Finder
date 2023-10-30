@@ -24,8 +24,18 @@ KD Trees: KD-Trees are used to find the nearest neighbours. We have used it for 
 
 ### Libraries Used:
 FastAPI
+
+
 Jinja2Templates
+
+
 Pandas and Numpy
+
+
 Requests
+
+
 Scipy Spatial
+
+
 PIL (Pillow)
