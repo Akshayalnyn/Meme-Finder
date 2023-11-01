@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to the Meme Search App</h1>
+
+    <!-- Add a search input field -->
+    <input type="text" id="query" placeholder="Enter your search query" required>
+    <button onclick="redirectToSearch()">Search</button><br>
+
+    <input type="text" id="query_text" placeholder="Enter your search query" required>
+    <button onclick="redirectToAC()">Autocomplete</button><br>
+
+    <!-- <a href="/autocomplete">Autocomplete</a><br>-->
+   <!--  <a href="/total_memes">Total Memes</a><br>-->
+    <a href="/popular_memes">Popular Memes</a>
+
+    <!-- JavaScript function for redirection -->
+    <script>
+        function redirectToSearch() {
+            var query = document.getElementById("query").value;
+            if (query) {
+                window.location.href = "/search?query=" + encodeURIComponent(query);
+            }
+        }
+    </script>
+    <script>
+        function redirectToAC() {
+            var query = document.getElementById("query_text").value;
+            if (query) {
+                window.location.href = "/autocomplete?query_text=" + encodeURIComponent(query);
+            }
+        }
+    </script>
+</body>
+</html>

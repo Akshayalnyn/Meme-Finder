@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Results</title>
+</head>
+<body>
+    <h1>Search Results</h1>
+    <ul>
+        {% for result in results %}
+        <li>
+            <h2>{{ result.name }}</h2>
+            <p>{{ result.text }}</p>
+            <img src="{{ result.image_url }}" alt="Image">
+        </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
